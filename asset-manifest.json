@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fran-portfolio-react/static/css/main.44f8b8b5.css",
+    "main.js": "/fran-portfolio-react/static/js/main.2212f279.js",
+    "static/js/787.63032ab3.chunk.js": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js",
+    "static/media/Weather.jpg": "/fran-portfolio-react/static/media/Weather.f40ff2ee15e46d19e1a7.jpg",
+    "index.html": "/fran-portfolio-react/index.html",
+    "main.44f8b8b5.css.map": "/fran-portfolio-react/static/css/main.44f8b8b5.css.map",
+    "main.2212f279.js.map": "/fran-portfolio-react/static/js/main.2212f279.js.map",
+    "787.63032ab3.chunk.js.map": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f8b8b5.css",
+    "static/js/main.2212f279.js"
+  ]
+}
