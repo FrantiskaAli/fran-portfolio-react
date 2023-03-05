@@ -1,0 +1,51 @@
+[    {
+  "id":"one",
+    "name": "You Trip",
+    "image": "Weather.jpg",
+    "description": "My first project from Bootcamp course. We collaborated as a group of 3 developers to create interactive website that suggest what kind of holidays is the best fit for your personality type. In this project I came up with the quiz and its logic, used local Storage as well as styled last two pages. We did use Bootstrap and ajax calls and learned how to collaborate as a group to make great things work! I really enjoyd how creative we could get during this assigment!!",
+    "link": "https://ionb23.github.io/YouTrip/",
+    "repoLink": "https://ionb23.github.io/YouTrip/"
+  },
+    {
+      "id":"two",
+      "name": "Weather Dashboard",
+      "image": "Weather.jpg",
+      "description": "This is one of the challengas completed for EdX Bootcamp. Here I practised using Bootstrap as full site has no custom CSS file linked. Main aim of this homework however was practise of AJAX calls with jQuery and working with serversite API OpenWeather and Moments.js. That I managed to do without any trouble. Dashboard lets you find city and gives you weather for the day aswell as 5 days forecast. Local storage is used and cities searched are dynamically generated to stay after revisitng the site",
+      "link": "https://frantiskaali.github.io/WeatherApp/?",
+      "repoLink": "https://ionb23.github.io/YouTrip/"
+    },
+    {
+      "id":"three",
+      "name": "Task Organizer",
+      "image": "Weather.jpg",
+      "description": "Restaurant Owner",
+      "link": "https://frantiskaali.github.io/TasksOrganizer/",
+      "repoLink": "https://ionb23.github.io/YouTrip/"
+    },
+    {
+      "id":"four",
+      "name": "Quiz Game",
+      "image": "Weather.jpg",
+      "description": "Cashier",
+      "link": "https://frantiskaali.github.io/SimpleQuizGame/",
+      "repoLink": "https://ionb23.github.io/YouTrip/"
+    },
+    {
+      "id":"five",
+      "name": "News Home Page",
+      "image": "Weather.jpg",
+      "description": "A Cowardly Dog",
+      "link": "https://frantiskaali.github.io/NewshomepageChallenge/",
+      "repoLink": "https://ionb23.github.io/YouTrip/"
+    },
+    {
+      "id":"six",
+      "name": "Bootstrap Portfolio",
+      "image": "Weather.jpg",
+      "description": "In this simple project I practised my styling skill using lots of CSS in combination with Bootstrap to create my first portfolio! Here I really enjoyed designing original way how to present myselfand have learne a lot about Bootstrap classes and how to use them effectivelly. Also enjoyed Bootstraps selectionof components to make website seem interactive before I ve even learned any JS ! ",
+      "link": "https://frantiskaali.github.io/FransBootstrapPortfolio/",
+      "repoLink": "https://ionb23.github.io/YouTrip/"
+    }
+]
+
+   
