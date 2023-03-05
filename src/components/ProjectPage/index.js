@@ -12,6 +12,7 @@ function ProjectPage(){
         <section>
           <article id='projecCardContainer'>
           { projects.map( p => <ProjectComponent
+          key={p.id} 
           name={p.name}
           image={imagePath(p)} 
           description={p.description} 

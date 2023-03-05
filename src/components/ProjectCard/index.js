@@ -4,7 +4,7 @@ import React from 'react';
 function ProjectCard({name, image, description, link, repoLink,id}){
     return <>
     
-    <article className="project"  id={id} >
+    <article className="project" id={id} >
     <figure>
       <img src={image} className="project-pic" alt={name}/>
     </figure>
