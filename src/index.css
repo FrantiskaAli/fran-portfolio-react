@@ -84,6 +84,9 @@ box-shadow: 12px 0px 29px 26px #003d5b;
 .nav-link-active:hover{
     color: #d1495b;
 }
+.navbar-toggler{
+color:#d1495b !important;
+}
 
 /*project cards*/
 
@@ -268,6 +271,26 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.98);
 }
 #form-button:hover{
     transform: scale(1.2);
+    color:#d1495b;
+}
+/*FOOTER*/
+footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height: 5vh;
+    background:#003d5b;
+}
+.footer-text{
+    color: #edae49;
+    font-weight: 600;
+}
+.footer-link{
+    text-decoration:none;
+    color: #edae49;
+    font-weight: 600;
+}
+.footer-link:hover{
     color:#d1495b;
 }
 /*media qquerries*/

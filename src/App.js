@@ -3,7 +3,7 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Projects from './components/ProjectPage';
 import Contact from './components/ContactPage';
-
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -20,8 +20,11 @@ function App() {
           <Route path="contact/*" element={<Contact />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
     </div>
+
+
   );
 }
 

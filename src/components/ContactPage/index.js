@@ -10,20 +10,18 @@ function ContactPage(){
 
     return <>
     <section className="d-flex justify-content-around m-5 contact-btns">
-    <a className='btnF' href="google.com" rel="noreferrer" target="_blank"><i className="fa fa-file fa-5x"></i>CV</a>
-    <a className='btnF' href="https://github.com/FrantiskaAli" rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-5x"></i></a>
-    <a className='btnF' href="https://www.linkedin.com/in/frantiska-rechkova-94623925b/" rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin fa-5x"></i></a>
-    </section>
-    <section className="d-flex flex-column justify-content-center align-center m-5">
-    <Link to="form" role="button" className="btn">
-  <h2 >  You can also <strong className='btnF inText'><i className="fa-regular fa-envelope fa-2x"></i></strong> me right now !</h2>
+    <a className='btnF' href="google.com" rel="noreferrer" target="_blank"><i className="fa fa-file fa-3x"></i>CV</a>
+    <a className='btnF' href="https://github.com/FrantiskaAli" rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-3x"></i></a>
+    <a className='btnF' href="https://www.linkedin.com/in/frantiska-rechkova-94623925b/" rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin fa-3x"></i></a>
+    <Link to="form" role="button" className="btnF"><i className="fa-regular fa-envelope fa-3x"></i>
       </Link>
-      
+      </section>
+      <section>
       <Routes>
         <Route path="form" element={<Form />} />
       </Routes>
-  
       </section>
+   
     </>
 }
 
