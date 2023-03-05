@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/fran-portfolio-react/static/css/main.84a41c60.css",
-    "main.js": "/fran-portfolio-react/static/js/main.5577a644.js",
+    "main.css": "/fran-portfolio-react/static/css/main.e0e066ba.css",
+    "main.js": "/fran-portfolio-react/static/js/main.efa7dbff.js",
     "static/js/787.63032ab3.chunk.js": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js",
     "static/media/profilepic.jpg": "/fran-portfolio-react/static/media/profilepic.0f902923b8025c14559f.jpg",
     "static/media/Weather.jpg": "/fran-portfolio-react/static/media/Weather.f40ff2ee15e46d19e1a7.jpg",
     "index.html": "/fran-portfolio-react/index.html",
-    "main.84a41c60.css.map": "/fran-portfolio-react/static/css/main.84a41c60.css.map",
-    "main.5577a644.js.map": "/fran-portfolio-react/static/js/main.5577a644.js.map",
+    "main.e0e066ba.css.map": "/fran-portfolio-react/static/css/main.e0e066ba.css.map",
+    "main.efa7dbff.js.map": "/fran-portfolio-react/static/js/main.efa7dbff.js.map",
     "787.63032ab3.chunk.js.map": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84a41c60.css",
-    "static/js/main.5577a644.js"
+    "static/css/main.e0e066ba.css",
+    "static/js/main.efa7dbff.js"
   ]
 }
