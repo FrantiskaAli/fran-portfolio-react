@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/fran-portfolio-react/static/css/main.e0e066ba.css",
-    "main.js": "/fran-portfolio-react/static/js/main.efa7dbff.js",
+    "main.css": "/fran-portfolio-react/static/css/main.fc7ae554.css",
+    "main.js": "/fran-portfolio-react/static/js/main.8112109a.js",
     "static/js/787.63032ab3.chunk.js": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js",
+    "static/media/You-trip.jpg": "/fran-portfolio-react/static/media/You-trip.ecef4d5be6059518a24b.jpg",
+    "static/media/BootstrpPortfolio.jpg": "/fran-portfolio-react/static/media/BootstrpPortfolio.68fdb60a26fa7471ce35.jpg",
+    "static/media/teamGenerator.jpg": "/fran-portfolio-react/static/media/teamGenerator.c7ac4c1948d3c21e46dd.jpg",
+    "static/media/taskOrganizer.jpg": "/fran-portfolio-react/static/media/taskOrganizer.40469a9656b059c679a6.jpg",
     "static/media/profilepic.jpg": "/fran-portfolio-react/static/media/profilepic.0f902923b8025c14559f.jpg",
+    "static/media/quizGame.jpg": "/fran-portfolio-react/static/media/quizGame.26d2ef54702274b47dc2.jpg",
     "static/media/Weather.jpg": "/fran-portfolio-react/static/media/Weather.f40ff2ee15e46d19e1a7.jpg",
     "index.html": "/fran-portfolio-react/index.html",
-    "main.e0e066ba.css.map": "/fran-portfolio-react/static/css/main.e0e066ba.css.map",
-    "main.efa7dbff.js.map": "/fran-portfolio-react/static/js/main.efa7dbff.js.map",
+    "main.fc7ae554.css.map": "/fran-portfolio-react/static/css/main.fc7ae554.css.map",
+    "main.8112109a.js.map": "/fran-portfolio-react/static/js/main.8112109a.js.map",
     "787.63032ab3.chunk.js.map": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0e066ba.css",
-    "static/js/main.efa7dbff.js"
+    "static/css/main.fc7ae554.css",
+    "static/js/main.8112109a.js"
   ]
 }
