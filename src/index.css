@@ -1,9 +1,10 @@
 /*colors*/
 :root{
-    --text-background: #d2effd;
-    --nav-and-footer: #003d5b;
-    --darker-title-text: #d1495b;
+    --text-background: #efd6ac;
+    --nav-and-footer: #131313;
+    --darker-title-text: #8c1c13;
     --light-title-text: #edae49;
+
 }
 /*importing google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=Josefin+Sans:ital,wght@0,300;1,700&family=Passion+One:wght@400;700;900&display=swap');
@@ -35,6 +36,9 @@ h3{
     color: var(--light-title-text);
     font-family: 'Passion One', cursive;
 
+}
+h5{
+    font-family: 'Passion One', cursive; 
 }
 p{
     font-family: 'Josefin Sans', sans-serif;
@@ -81,9 +85,10 @@ box-shadow: 12px 0px 29px 26px var(--nav-and-footer);
 
 /*navigation styling*/
 .navbar-brand{
-    font-weight: 800;
+    font-weight: 700;
     color:var(--darker-title-text) !important;
     font-size: 2.5rem !important;
+    font-family: 'Amatic SC', cursive;
 
 }
 .nbav-link{
@@ -97,6 +102,7 @@ box-shadow: 12px 0px 29px 26px var(--nav-and-footer);
     font-size: 2rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: var(--light-title-text);
+    font-family: 'Amatic SC', cursive;
 
 }
 .nav-link-active:hover{
@@ -157,8 +163,8 @@ box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.83);
 }
 
 .project:nth-child(odd){
-    background-color:#00798C ;
-    color: #b9e1f5;
+    background-color: #953700 ;
+    color: var(--text-background);
     flex-direction: row-reverse !important;
 
 }
@@ -174,8 +180,8 @@ box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.83);
     border: 1px solid var(--light-title-text);
     padding: 2%;
     margin:2%;
-    background-color:#00798C ;
-    border-radius: 10px;
+    background-color:#bf4701 ;
+    border-radius: 5px;
     -webkit-box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.83); 
 box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.83);
 }
@@ -187,17 +193,17 @@ box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.83);
     padding: 2%;
     margin: 2%;
     background-color: var(--nav-and-footer);
-    border-radius: 10px;
+    border-radius: 5px;
     -webkit-box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.83); 
 box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.83);
 }
 #project-link:hover{
     border: 1px solid var(--darker-title-text);
-    background-color: var(--nav-and-footer);
+    background-color: #270d0d;
 }
 #repo-link:hover{
     border: 1px solid var(--light-title-text);
-    background-color:#00798C ;
+    background-color:#bf4701 ;
 }
 .project:nth-child(even) h5{
     font-size: 3rem;
@@ -231,7 +237,7 @@ box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.83);
 /*contact page buttons layout*/
 .btnF{
     padding: 2%;
-    border-radius:50%;
+    border-radius:10px;
     background-color:var(--nav-and-footer) ;
     color: var(--light-title-text);
     text-decoration:none;
@@ -285,7 +291,7 @@ label{
     width: 20%;
     padding:1%;
     margin-top:2%;
-    border-radius:15px;
+    border-radius:5px;
     background-color: var(--nav-and-footer);
     color: var(--light-title-text);
     font-weight: 800;
