@@ -26,7 +26,7 @@ function Navigation() {
         </li>
         <li className="nav-item mx-3">
           <NavLink
-            to="/projects"
+            to="projects"
             className={({ isActive }) =>
               isActive ? 'nav-link-active' : 'nav-link'
             }

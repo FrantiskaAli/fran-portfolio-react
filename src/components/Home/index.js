@@ -1,5 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/js/all.js'
+import {Link} from 'react-router-dom'
 
 function Home(){
   const handleClick = event => {
@@ -11,17 +12,21 @@ function Home(){
      
         <div id="me-card" onClick={handleClick} >
         
-        <article id="bio" className="cardFace cardFront">
-    
+        <article className="cardFace cardFront">
+          <div id="bio" class="d-flex flex-column align-items-center" >
         <span id="turn"><i  className="fa-solid fa-rotate fa-2x"></i></span>
           <h1>Hi! I am Fran <i className="fa-solid fa-laptop-code"></i></h1>
-          <h3>front-end developer in making!</h3>
+          <h3>full-stack developer in making!</h3>
           <p id='intro'>
-            I am very hard-working result driven individual with passion for person-centred creative design and great attention to detail.
-            I graduated front-end developmnet bootcamp and keep on finding projects to improve my skill set as much as possible.
-            The main languages in my tech stack are JavaScript(includes React), and of course HTML/CSS. I’m a lifelong learner (about to take course of SQL).
-            Along with all this enthusiasm for web dev I am also mother of two beautiful girls so no time for other hobbies at the moment.<i className="fa-regular fa-face-laugh-wink fa-1x"></i>
+            I am very <strong>hard-working</strong> result driven individual with passion for <strong>person-centred creative design </strong>and great attention to detail.
+            I graduated front-end developmnet bootcamp and keep on finding projects to <strong>improve my skill set</strong> as much as possible.
+            The main languages in my tech stack are <strong>JavaScript(includes React)</strong>, and of course <strong>HTML/CSS</strong>.However I’m a lifelong learner and getting ready to take PHP and SQL course to understand all about web-dev.
+            Along with all this <strong>enthusiasm for web developement</strong> I am also mother of two beautiful girls so no time for other hobbies at the moment.<i className="fa-regular fa-face-laugh-wink fa-1x"></i>
           </p>
+          <Link to="/projects" role="button" className="btnF m-5" id="toProjects">
+            See My Work  <i className="fa-solid fa-laptop-file"></i>
+         </Link>
+         </div>
         </article>
         <article id="me" className="cardFace cardBack">
         <img src={profilePic} alt="..." width='50%' height='100%'/>
