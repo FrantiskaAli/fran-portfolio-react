@@ -13,7 +13,7 @@ function Home(){
         <div id="me-card" onClick={handleClick} >
         
         <article className="cardFace cardFront">
-          <div id="bio" class="d-flex flex-column align-items-center" >
+          <div id="bio" className="d-flex flex-column align-items-center" >
         <span id="turn"><i  className="fa-solid fa-rotate fa-2x"></i></span>
           <h1>Hi! I am Fran <i className="fa-solid fa-laptop-code"></i></h1>
           <h3>full-stack developer in making!</h3>

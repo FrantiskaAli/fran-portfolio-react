@@ -51,10 +51,11 @@ p {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-#me { border:solid black 2px;
+#me {
+    border: solid black 2px;
     width: 100%;
     height: 60vh;
-    border:solid black 2px;
+    border: solid black 2px;
     -webkit-box-shadow: 5px 6px 11px 7px rgba(0, 0, 0, 0.65);
     box-shadow: 5px 6px 11px 7px rgba(0, 0, 0, 0.65);
     border-radius: 10px;
@@ -62,32 +63,38 @@ p {
 
 #me img {
     border-radius: 5px;
-    border:black 3px solid;
+    border: black 3px solid;
     height: 90%;
 }
 
 #me-card {
     width: 100%;
     height: 100%;
-    margin-top:0;
+    margin-top: 0;
     transition: transform 2s;
     transform-style: preserve-3d;
     cursor: pointer;
-    position: relative;  
+    position: relative;
 }
 
 #me-card.isFlipped {
     transform: rotateY(180deg);
-    
+
 }
-#bio{
+
+#bio {
     padding: 5%;
-    height:60vh;
-    border:solid black 3px;
+    height: 60vh;
+    border: solid black 3px;
     border-radius: 10px;
     -webkit-box-shadow: 5px 6px 11px 7px rgba(0, 0, 0, 0.65);
     box-shadow: 5px 6px 11px 7px rgba(0, 0, 0, 0.65);
+    animation-duration: 1s;
+    animation-name: animate-pop;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-delay: 0.3;
 }
+
 .cardFace {
     position: absolute;
     width: 100%;
@@ -178,11 +185,15 @@ p {
     animation-duration: 2s;
     animation-name: slideInUp;
     text-align: center;
-    transition: ease-in-out 0.5s;
+    transition: ease-in 0.5s;
 }
 
-.project:hover {
-    transform: scale(1.03);
+.project img {
+    transition: ease-in-out 1s;
+}
+
+.project img:hover {
+    transform: scale(1.2);
 }
 
 #one {
@@ -245,6 +256,7 @@ p {
     border-radius: 5px;
     -webkit-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.83);
     box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.83);
+    transition: ease-in-out 0.5s;
 }
 
 #repo-link {
@@ -258,16 +270,19 @@ p {
     border-radius: 5px;
     -webkit-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.83);
     box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.83);
+    transition: ease-in-out 0.8s;
 }
 
 #project-link:hover {
     border: 1px solid var(--darker-title-text);
     background-color: #270d0d;
+    transform: scale(1.2);
 }
 
 #repo-link:hover {
     border: 1px solid var(--light-title-text);
     background-color: #bf4701;
+    transform: scale(1.2);
 }
 
 .project:nth-child(even) h5 {
@@ -286,14 +301,13 @@ p {
 @keyframes slideInUp {
     from {
         opacity: 0;
-        transform: translate3d(30%, 90%, 0);
+        transform: translate3d(0, 100%, 0);
         visibility: hidden;
     }
 
     to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
-        visibility: visible;
     }
 }
 
@@ -332,6 +346,20 @@ p {
     -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.95);
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.95);
 }
+
+/*contact buttons animate in*/
+.contact-btns {
+    animation-duration: 2s;
+    animation-name: slideInUp;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-delay: 0s;
+    border: 2px solid black;
+    padding: 2%;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.98);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.98);
+}
+
 
 /*form opened*/
 form {
@@ -411,7 +439,12 @@ footer {
 .footer-link:hover {
     color: var(--darker-title-text);
 }
-
+@media (max-width: 768px){
+    #about {
+        width: 96%;
+        margin: 5% 2%;
+    }
+}
 /*media qquerries*/
 @media (max-width: 576px) {
     #welcome {
@@ -432,22 +465,29 @@ footer {
     }
 
     body {
+        width: 100vw;
         padding-bottom: 25%;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
-    #about {
-        width: 96%;
-        margin: 5% 2%;
+    #bio {
+        height: 90vh;
+        padding: 1%;
     }
 
     #intro {
         width: 100%;
     }
 
+    #me {
+        height: 90vh;
+    }
+
     #me img {
-        width: 97vw;
+        width: 95%;
+        height: 50%;
         margin-top: 5%;
+
     }
 
     .project {
@@ -483,6 +523,7 @@ footer {
         padding: 5% 1%;
         margin: 5%;
     }
+
 
     #name {
         width: 80%;
@@ -575,15 +616,15 @@ footer {
 
 @keyframes animate-pop {
     0% {
-      opacity: 0;
-      transform: scale(0.5, 0.5);
+        opacity: 0;
+        transform: scale(0.5, 0.5);
     }
-  
+
     100% {
-      opacity: 1;
-      transform: scale(1, 1);
+        opacity: 1;
+        transform: scale(1, 1);
     }
-  }
+}
 
 
 .wrapper {
