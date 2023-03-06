@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/fran-portfolio-react/static/css/main.5008bf0e.css",
-    "main.js": "/fran-portfolio-react/static/js/main.47ee606e.js",
+    "main.css": "/fran-portfolio-react/static/css/main.6cef455a.css",
+    "main.js": "/fran-portfolio-react/static/js/main.fe7f5bcd.js",
     "static/js/787.63032ab3.chunk.js": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js",
     "static/media/You-trip.jpg": "/fran-portfolio-react/static/media/You-trip.ecef4d5be6059518a24b.jpg",
+    "static/media/profilepic.jpg": "/fran-portfolio-react/static/media/profilepic.5ceb0d249c52e7a233b9.jpg",
     "static/media/BootstrpPortfolio.jpg": "/fran-portfolio-react/static/media/BootstrpPortfolio.68fdb60a26fa7471ce35.jpg",
     "static/media/teamGenerator.jpg": "/fran-portfolio-react/static/media/teamGenerator.c7ac4c1948d3c21e46dd.jpg",
     "static/media/taskOrganizer.jpg": "/fran-portfolio-react/static/media/taskOrganizer.40469a9656b059c679a6.jpg",
-    "static/media/profilepic.jpg": "/fran-portfolio-react/static/media/profilepic.0f902923b8025c14559f.jpg",
     "static/media/quizGame.jpg": "/fran-portfolio-react/static/media/quizGame.26d2ef54702274b47dc2.jpg",
     "static/media/Weather.jpg": "/fran-portfolio-react/static/media/Weather.f40ff2ee15e46d19e1a7.jpg",
+    "static/media/Resume.pdf": "/fran-portfolio-react/static/media/Resume.a73154b56d0a97026fde.pdf",
     "index.html": "/fran-portfolio-react/index.html",
-    "main.5008bf0e.css.map": "/fran-portfolio-react/static/css/main.5008bf0e.css.map",
-    "main.47ee606e.js.map": "/fran-portfolio-react/static/js/main.47ee606e.js.map",
+    "main.6cef455a.css.map": "/fran-portfolio-react/static/css/main.6cef455a.css.map",
+    "main.fe7f5bcd.js.map": "/fran-portfolio-react/static/js/main.fe7f5bcd.js.map",
     "787.63032ab3.chunk.js.map": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5008bf0e.css",
-    "static/js/main.47ee606e.js"
+    "static/css/main.6cef455a.css",
+    "static/js/main.fe7f5bcd.js"
   ]
 }
