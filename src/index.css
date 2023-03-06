@@ -308,6 +308,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.98);
 }
 /*FOOTER*/
 footer{
+    margin-top: 30px;
     position:fixed;
     left:0px;
     bottom:0px;
@@ -328,6 +329,23 @@ footer{
 }
 /*media qquerries*/
 @media (max-width: 576px) {
+   #me-card{
+        width: 100%;
+        margin:0;
+        padding:0;
+        padding-bottom: 5%;
+        margin-top: 5%;
+   }
+   #bio{
+    width: 100%;
+    margin:0;
+    padding: 0;
+    padding-bottom: 55%;
+   }
+   
+   #intro{
+    width: 100%;
+   }
     #me img{
         width:97vw;
         margin-top: 5%;
