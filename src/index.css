@@ -538,9 +538,12 @@ footer {
     .btnF {
         padding: 5% 1%;
         margin: 5%;
+        text-align:center;
     }
 
-
+    .container-btns{
+        flex-direction: column;
+    }
     #name {
         width: 80%;
         margin: 2%;
