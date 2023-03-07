@@ -19,9 +19,9 @@ function Home(){
           <h3>full-stack developer in making!</h3>
           <p id='intro'>
             I am very <strong>hard-working</strong> result driven individual with passion for <strong>person-centred creative design </strong>and great attention to detail.
-            I graduated front-end developmnet bootcamp and keep on finding projects to <strong>improve my skill set</strong> as much as possible.
-            The main languages in my tech stack are <strong>JavaScript(includes React)</strong>, and of course <strong>HTML/CSS</strong>.However I’m a lifelong learner and getting ready to take PHP and SQL course to understand all about web-dev.
-            Along with all this <strong>enthusiasm for web developement</strong> I am also mother of two beautiful girls so no time for other hobbies at the moment.<i className="fa-regular fa-face-laugh-wink fa-1x"></i>
+            I graduated front-end development Bootcamp and keep on finding projects to <strong>improve my skill set</strong> as much as possible.
+            The main languages in my tech stack are <strong>JavaScript(includes React)</strong>, and of course <strong>HTML/CSS</strong>.However I’m a lifelong learner and getting ready to take <strong>PHP</strong> and <strong>SQL</strong> courses to understand all about web-dev.
+            Along with all this <strong>enthusiasm for web development</strong> I am also mother of two beautiful girls so no time for other hobbies at the moment.<i className="fa-regular fa-face-laugh-wink fa-1x"></i>
           </p>
           <Link to="/projects" role="button" className="btnF m-5" id="toProjects">
             See My Work  <i className="fa-solid fa-laptop-file"></i>

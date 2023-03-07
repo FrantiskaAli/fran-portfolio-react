@@ -1,49 +1,49 @@
 [    {
-  "id":"one",
+  "id":"1",
     "name": "You Trip",
     "image": "You-trip.jpg",
-    "description": "My first group project from Bootcamp course. We collaborated as a group of 3 developers to create interactive website that suggest what kind of holidays is the best fit for your personality type. In this project I came up with the quiz and its logic, used local Storage as well as styled last two pages. We did use Bootstrap and ajax calls and learned how to collaborate as a group to make great things work! I really enjoyd how creative we could get during this assigment!!",
+    "description": "My first group project from Bootcamp course. We collaborated as a group of 3 developers to create interactive website that suggests what kind of holidays is the best fit for your personality type. In this project I came up with the quiz and its logic, used local Storage, worked with jQuery as well as styled last two pages. We did use Bootstrap and AJAX calls and learned how to collaborate as a group to make great things work! I really enjoyed how creative we could get during this assignment!!",
     "link": "https://ionb23.github.io/YouTrip/",
     "repoLink": "https://ionb23.github.io/YouTrip/"
   },
     {
-      "id":"two",
+      "id":"2",
       "name": "Weather Dashboard",
       "image": "Weather.jpg",
-      "description": "This is one of the challengas completed for EdX Bootcamp. It is practise of third party APIs calls and asynchronous programing using then and response. I have p-ractised with moment.js, openweather API. All styling is done by Bootstrap only. ",
+      "description": "This is one of the challenges completed for EdX Bootcamp. It is practice of third party APIs calls(jQuery AJAX) using then and response. I have practiced with moment.js, openweather API. All styling is done by Bootstrap only. ",
       "link": "https://frantiskaali.github.io/WeatherApp/?",
       "repoLink": "https://github.com/FrantiskaAli/WeatherApp/"
     },
     {
-      "id":"five",
+      "id":"3",
       "name": "Team Generator",
       "image": "teamGenerator.jpg",
-      "description": "Team generator is in command line application that is run in terminal ,using node. Application need npm install in the terminal, then uses inquirer to ask series of question to generate fully functional html site containing information entered by the user.",
+      "description": "Team generator is in command line application that is run in terminal ,using node.js. Application needs npm install in the terminal, then uses inquirer to ask series of question to generate fully functional html site containing information entered by the user.",
       "link": "https://frantiskaali.github.io/TeamProfileGenerator/",
       "repoLink": "https://github.com/FrantiskaAli/TeamProfileGenerator/"
     },
     {
-      "id":"three",
+      "id":"4",
       "name": "Task Organizer",
       "image": "taskOrganizer.jpg",
-      "description": "This challenge had me focused on usage of moment.js creatively and practising local storage. You can save your daily task in each hour section of the working day. It is also my fisrt completely JavaScript generated HTML layout.",
+      "description": "This challenge had me focused on usage of moment.js creatively and practising local storage. You can save your daily tasks in each hour section of the working day. It is also my first completely JavaScript generated HTML layout.",
       "link": "https://frantiskaali.github.io/TasksOrganizer/",
       "repoLink": "https://github.com/FrantiskaAli/TasksOrganizer/"
     },
     {
-      "id":"four",
+      "id":"5",
       "name": "Quiz Game",
       "image": "quizGame.jpg",
-      "description": "This fun quiz game was first challange to get familiar with DOM manipulation! It opened many new doors for me as during working on this assigment I got confident using JavaScript to dynamically generate page content. Got familiar with timer function and localstorage!",
+      "description": "This fun quiz game was first challenge to get familiar with DOM manipulation! It opened many new doors for me as during working on this assignment I got confident using JavaScript to dynamically generate page content. Got familiar with timer function and localStorage!",
       "link": "https://frantiskaali.github.io/SimpleQuizGame/",
       "repoLink": "https://github.com/FrantiskaAli/SimpleQuizGame/"
     },
     
     {
-      "id":"six",
+      "id":"6",
       "name": "Bootstrap Portfolio",
       "image": "BootstrpPortfolio.jpg",
-      "description": "In this simple project I practised my styling skill using lots of CSS in combination with Bootstrap to create my first portfolio! Here I really enjoyed designing original way how to present myselfand have learne a lot about Bootstrap classes and how to use them effectivelly. Also enjoyed Bootstraps selectionof components to make website seem interactive before I ve even learned any JS ! ",
+      "description": "In this simple project I practiced my styling skill using lots of CSS in combination with Bootstrap to create my first portfolio! Here I really enjoyed designing original way how to present myself and have learned a lot about Bootstrap classes and how to use them effectively. Also enjoyed Bootstraps selection of components to make website seem interactive before I have even learned any JavaScript ! ",
       "link": "https://frantiskaali.github.io/FransBootstrapPortfolio/",
       "repoLink": "https://github.com/FrantiskaAli/FransBootstrapPortfolio/"
     }

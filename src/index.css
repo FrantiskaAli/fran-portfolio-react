@@ -170,6 +170,9 @@ p {
     color: var(--darker-title-text) !important;
 }
 
+
+/*Project over view*/
+
 /*project cards*/
 
 .project {
@@ -183,7 +186,7 @@ p {
     -webkit-box-shadow: 5px 6px 11px 7px rgba(0, 0, 0, 0.65);
     box-shadow: 5px 6px 11px 7px rgba(0, 0, 0, 0.65);
     animation-duration: 2s;
-    animation-name: slideInUp;
+    animation-name: slideInDown;
     text-align: center;
     transition: ease-in 0.5s;
 }
@@ -196,7 +199,7 @@ p {
     transform: scale(1.2);
 }
 
-#one {
+/*#one {
     animation-delay: 0.1s;
 }
 
@@ -223,7 +226,7 @@ p {
 .card-body {
     width: 45vw;
 }
-
+*/
 .project-pic {
     height: 100%;
     width: 40vw;
@@ -232,15 +235,15 @@ p {
     -webkit-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.83);
     box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.83);
 }
-
-.project:nth-child(odd) {
+/*
+.project:nth-child(even) {
     background-color: #953700;
     color: var(--text-background);
     flex-direction: row-reverse !important;
 
 }
-
-.project:nth-child(even) {
+*/
+.project:nth-child(odd) {
     background-color: var(--nav-and-footer);
     flex-direction: row !important;
 }
@@ -285,13 +288,15 @@ p {
     transform: scale(1.2);
 }
 
-.project:nth-child(even) h5 {
+.project:nth-child(odd) h5 {
     font-size: 3rem;
     font-weight: 600;
     color: var(--darker-title-text)
 }
-
-.project:nth-child(odd) h5 {
+.slideInDown{
+    animation-name: slideInDown;
+}
+/*.project:nth-child(even) h5 {
     font-size: 3rem;
     font-weight: 600;
     color: var(--light-title-text)
@@ -310,7 +315,18 @@ p {
         transform: translate3d(0, 0, 0);
     }
 }
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+        visibility: hidden;
+    }
 
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
 .slideInUp {
     animation-name: slideInUp;
 }
@@ -348,7 +364,7 @@ p {
 }
 
 /*contact buttons animate in*/
-.contact-btns {
+.container-btns {
     animation-duration: 2s;
     animation-name: slideInUp;
     animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
@@ -445,7 +461,7 @@ footer {
         margin: 5% 2%;
     }
 }
-/*media qquerries*/
+/*media querries*/
 @media (max-width: 576px) {
     #welcome {
         position: absolute;

@@ -9,7 +9,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 function ContactPage(){
 
     return <>
-    <section className="d-flex justify-content-around m-5 contact-btns">
+    <section className="d-flex justify-content-around m-5 container-btns">
     <a className='btnF' id='cv' href={Resume} rel="noreferrer" download><i className="fa fa-file fa-3x"></i>CV</a>
     <a className='btnF' id='gh' href="https://github.com/FrantiskaAli" rel="noreferrer" target="_blank"><i className="fa-brands fa-github fa-3x"></i></a>
     <a className='btnF' id='ln' href="https://www.linkedin.com/in/frantiska-rechkova-94623925b/" rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin fa-3x"></i></a>

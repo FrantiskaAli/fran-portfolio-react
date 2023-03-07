@@ -18,7 +18,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Welcome/>} />
           <Route path="/about" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/*" element={<Projects />} />
           <Route path="contact/*" element={<Contact />} />
         </Routes>
       </div>
