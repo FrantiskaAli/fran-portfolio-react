@@ -3,6 +3,7 @@ import ProjectComponent from '../ProjectCard';
 import myProjects from './projects.json';
 import {Link, Routes, Route} from 'react-router-dom'
 
+
 function ProjectPage(){
     const [projects] = useState(myProjects);
     function imagePath(props) {
@@ -20,9 +21,12 @@ return <ProjectComponent
     id={projects[p].id}
     /> 
 }
+const clickScroll = () => {
+  window.scrollTo(0,0);
+}
     return (
         <section>
-               <article class=".slideInDown">
+               <article className=".slideInDown">
       <Routes>
         <Route path="1" element={pickProject(0)} />
         <Route path="2" element={pickProject(1) } />
@@ -32,21 +36,20 @@ return <ProjectComponent
         <Route path="6" element={pickProject(5)} />
       </Routes>
 
-        
         </article>
         <article id='projectCardContainer' className="row justify-content-center container-btns">
-     <Link to="1" role="button" className="btnF col-lg-3 col-md-2 col-sm-4 m-2">{projects[0].name}
-      </Link>
-      <Link to="2" role="button" className="btnF col-lg-3 col-md-2 col-sm-4 m-2">{projects[1].name}
-      </Link>
-      <Link to="3" role="button" className="btnF col-lg-3 col-md-2 col-sm-4 m-2">{projects[2].name}
-      </Link>
-      <Link to="4" role="button" className="btnF col-lg-3 col-md-2 col-sm-4 m-2">{projects[3].name}
-      </Link>
-      <Link to="5" role="button" className="btnF col-lg-3 col-md-2 col-sm-4 m-2">{projects[4].name}
-      </Link>
-      <Link to="6" role="button" className="btnF col-lg-3 col-md-2 col-sm-4 m-2">{projects[5].name}
-      </Link> 
+        { projects.map( p => <Link
+        to={p.id}
+        role='button'
+        key={p.id}
+        onClick={clickScroll}
+        className="btnF col-lg-3 col-md-2 col-sm-4 m-2"
+    
+        >{p.name} 
+       
+        </Link>
+        ) }
+
         </article>
      
         </section>
