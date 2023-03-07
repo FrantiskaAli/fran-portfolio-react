@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fran-portfolio-react/static/css/main.f9d457bf.css",
-    "main.js": "/fran-portfolio-react/static/js/main.4277db87.js",
+    "main.css": "/fran-portfolio-react/static/css/main.c5ac1796.css",
+    "main.js": "/fran-portfolio-react/static/js/main.d7de7620.js",
     "static/js/787.63032ab3.chunk.js": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js",
     "static/media/You-trip.jpg": "/fran-portfolio-react/static/media/You-trip.ecef4d5be6059518a24b.jpg",
     "static/media/profilepic.jpg": "/fran-portfolio-react/static/media/profilepic.5ceb0d249c52e7a233b9.jpg",
@@ -12,12 +12,12 @@
     "static/media/Weather.jpg": "/fran-portfolio-react/static/media/Weather.f40ff2ee15e46d19e1a7.jpg",
     "static/media/Resume.pdf": "/fran-portfolio-react/static/media/Resume.a73154b56d0a97026fde.pdf",
     "index.html": "/fran-portfolio-react/index.html",
-    "main.f9d457bf.css.map": "/fran-portfolio-react/static/css/main.f9d457bf.css.map",
-    "main.4277db87.js.map": "/fran-portfolio-react/static/js/main.4277db87.js.map",
+    "main.c5ac1796.css.map": "/fran-portfolio-react/static/css/main.c5ac1796.css.map",
+    "main.d7de7620.js.map": "/fran-portfolio-react/static/js/main.d7de7620.js.map",
     "787.63032ab3.chunk.js.map": "/fran-portfolio-react/static/js/787.63032ab3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9d457bf.css",
-    "static/js/main.4277db87.js"
+    "static/css/main.c5ac1796.css",
+    "static/js/main.d7de7620.js"
   ]
 }
