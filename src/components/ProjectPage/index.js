@@ -37,7 +37,7 @@ const clickScroll = () => {
       </Routes>
 
         </article>
-        <article id='projectCardContainer' className="row justify-content-center container-btns">
+        <article id='projectCardContainer' className="d-flex justify-content-around container-fluid my-3 text-center container-btns">
         { projects.map( p => <Link
         to={p.id}
         role='button'
