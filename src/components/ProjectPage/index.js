@@ -37,13 +37,13 @@ const clickScroll = () => {
       </Routes>
 
         </article>
-        <article id='projectCardContainer' className="d-flex justify-content-around container-fluid my-3 text-center container-btns">
+        <article id='projectCardContainer' className="d-flex justify-content-around container-fluid my-3 text-center flex-wrap container-btns">
         { projects.map( p => <Link
         to={p.id}
         role='button'
         key={p.id}
         onClick={clickScroll}
-        className="btnF col-lg-3 col-md-2 col-sm-4 m-2"
+        className="btnF  p-2 col-lg-3 col-md-2 col-sm-4 m-2"
     
         >{p.name} 
        
